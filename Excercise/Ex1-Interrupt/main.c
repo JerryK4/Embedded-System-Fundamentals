@@ -69,17 +69,11 @@ void EXTI15_10_IRQHandler() {
         // Bật LED xanh PA5
         GPIOA->ODR |= (1 << 5);
 
-        // Tắt LED đỏ PC5
-        GPIOC->ODR &= ~(1 << 5);
-
         // Giữ LED xanh sáng trong một khoảng thời gian
         for (volatile int i = 0; i < 2000000; i++);
 
         // Tắt LED xanh PA5
         GPIOA->ODR &= ~(1 << 5);
-
-        // Bật lại LED đỏ PC5
-        GPIOC->ODR |= (1 << 5);
 
         // Xóa cờ ngắt EXTI13
         EXTI->PR |= (1 << 13);
