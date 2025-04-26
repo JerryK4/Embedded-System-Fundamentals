@@ -14,3 +14,16 @@ Nhập môn hệ thống nhúng
 <br>
 <br>Timer
 <br>Exercise 1: Cấu hình tần số hoạt động của Timer 1 là 1 KHz với tần số dao động của hệ thống là 16 MHz sẽ tạo ra sự kiện ngắt. Thiết kế 1 bộ Upcounter Timer để cho đèn LED PA5 nháy 1s,2s 
+<br>BT2 : Cấu hình tần số hoạt động của Timer 1 là 1 KHz với tần số dao động của hệ thống là 16 MHz sẽ tạo ra sự kiện ngắt. Thiết kế 1 bộ Downcounter Timer để cho đèn LED PA5 nháy 1s,2s
+<br>BT3 : Cấu hình tần số hoạt động của Timer 1 là 1 KHz với tần số dao động của hệ thống là 16 MHz sẽ tạo ra sự kiện ngắt. Thiết kế 1 bộ Timer để cho đèn LED PA5,PB6,PC7 nháy Lần lượt 1s,2s,4s
+<br>
+<br>PWM
+<br>Bài tập: Tạo tín hiệu PWM trên chân PA5 (nối với led xanh) của STM32F401RE để bật và tắt led dần dần.
+Sử dụng TIM2 để tạo tín hiệu PWM trên PA5.
+Sử dụng TIM3 để tạo hàm delay void delay_ms(int ms) để tạo độ trễ ngắn giữa các mức tín hiệu PWM khác nhau (tương ứng với các chu kỳ nhiệm vụ khác nhau) để thấy rõ hơn hiệu ứng LED bật và tắt dần dần.
+<br>
+<br>UART
+<br>Bài 1: In chữ “Hello Stm32” ra màn hình phần mềm PUTTY sử dụng Kênh UART2 PA2, PA3 làm TX,RX 
+<br>Bài 2: Đọc giá trị của cảm biến IR sensor gửi giá trị lên màn hình PUTTY (Sử dụng UART2 PA2,PA3, chân cảm biến sử dụng PC1)
+<br>Bài 3: Đọc giá trị của biến trở gửi giá trị lên màn hình PUTTY(Sử dụng UART2 PA2,PA3, chân cảm biến sử dụng PC1)
+
