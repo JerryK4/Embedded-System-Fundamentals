@@ -26,4 +26,7 @@ Sử dụng TIM3 để tạo hàm delay void delay_ms(int ms) để tạo độ 
 <br>Bài 1: In chữ “Hello Stm32” ra màn hình phần mềm PUTTY sử dụng Kênh UART2 PA2, PA3 làm TX,RX 
 <br>Bài 2: Đọc giá trị của cảm biến IR sensor gửi giá trị lên màn hình PUTTY (Sử dụng UART2 PA2,PA3, chân cảm biến sử dụng PC1)
 <br>Bài 3: Đọc giá trị của biến trở gửi giá trị lên màn hình PUTTY(Sử dụng UART2 PA2,PA3, chân cảm biến sử dụng PC1)
+<br>
+<br>I2C:Sử dụng giao tiếp I2C hiển thị dòng chữ bất ký lên màn hình oled SSD1306
+<br>ADC:Thực hành thay đổi giá trị sáng của đèn led bằng việc sử dụng biến trở và hiển thị giá trị đọc được từ chân của biến trở và hiển thị lên màn hình oled.
 
